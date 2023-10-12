@@ -87,13 +87,37 @@
 // count(startNum, endNum);
 
 // ANSWER NO: 08
-function hypo(base, perp) {
-  let squaredResult = (base * base) + (perp * perp);
-  let finalResult = Math.sqrt(squaredResult);
-  alert("Hypotenuse: " + finalResult);
+// function hypo(base, perp) {
+//   let squaredResult = (base * base) + (perp * perp);
+//   let finalResult = Math.sqrt(squaredResult);
+//   alert("Hypotenuse: " + finalResult);
 
+// }
+// let base = +prompt("Enter the base of Right angle traingle");
+// let perp = +prompt("Enter the perpendicular of Right angle traingle");
+// hypo(base, perp);
 
-}
-let base = +prompt("Enter the base of Right angle traingle");
-let perp = +prompt("Enter the perpendicular of Right angle traingle");
-hypo(base, perp);
+// ANSWER NO: 09
+// function area(width, height) {
+//   let area = width * height;
+//   alert(area);
+// }
+// area(5,4);
+// let width = 5;
+// let height = 4;
+// area(width, height);
+
+// ANSWER NO: 10
+// function palindrome(str) {
+//   let cleanStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+//   let reversedStr = cleanStr.split("").reverse().join("");
+//   return cleanStr === reversedStr;
+// }
+// let str = prompt("Enter string..");
+// if (palindrome(str)) {
+//   alert("This is a palindrome string.");
+// } else {
+//   alert("Not a palindrome..");
+// }
+
+// ANSWER NO: 11

@@ -67,9 +67,33 @@
 
 // ANSWER NO: 06
 // function fact(num) {
-for (let i = 1; i <= num; i--) {
-  var result = num * i;
-  doucument.write(result);
-}
+//   var result = 1;
+//   for (let i = 1; i <= num; i++) {
+//     result = result * i;
+//   }
+//   alert(result);
 // }
-// fact(5);
+// let num = +prompt("Enter a number..");
+// fact(num);
+
+// ANSWER NO: 07
+// function count(startNum, endNum) {
+//   for (let i = startNum; i <= endNum; i++) {
+//     document.write(`${i}<br>`);
+//   }
+// }
+// let startNum = +prompt("Enter starting number.."),
+//   endNum = +prompt("Enter end number..");
+// count(startNum, endNum);
+
+// ANSWER NO: 08
+function hypo(base, perp) {
+  let squaredResult = (base * base) + (perp * perp);
+  let finalResult = Math.sqrt(squaredResult);
+  alert("Hypotenuse: " + finalResult);
+
+
+}
+let base = +prompt("Enter the base of Right angle traingle");
+let perp = +prompt("Enter the perpendicular of Right angle traingle");
+hypo(base, perp);
